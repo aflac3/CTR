@@ -1,0 +1,35 @@
+{
+  "detectors_to_exclude": [
+    "assembly",
+    "low-level-calls",
+    "missing-inheritance",
+    "naming-convention",
+    "pragma",
+    "solc-version",
+    "unused-state",
+    "unused-return",
+    "unused-import",
+    "unused-var",
+    "unused-function",
+    "unused-modifier",
+    "unused-event",
+    "unused-interface",
+    "unused-struct",
+    "unused-enum",
+    "unused-constant",
+    "unused-constructor",
+    "unused-fallback",
+    "unused-receive"
+  ],
+  "exclude_informational": true,
+  "exclude_low": false,
+  "exclude_medium": false,
+  "exclude_high": false,
+  "json": "slither-report.json",
+  "printers": [
+    "human-summary",
+    "human-summary-compact",
+    "json",
+    "markdown"
+  ]
+} 

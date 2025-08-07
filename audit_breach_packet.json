@@ -1,0 +1,19 @@
+{
+  "edai_id": "EDAI-batt-001",
+  "resource_id": "battery-farm-alpha",
+  "breach_type": "voltage_drop",
+  "timestamp": "2024-01-15T10:30:00Z",
+  "severity": "high",
+  "threshold": 0.85,
+  "actual_value": 0.72,
+  "location": {
+    "lat": 40.7128,
+    "lng": -74.0060
+  },
+  "attestation_hash": "0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+  "issuer_signature": "0xabcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "compliance_status": "pending",
+  "mitigation_required": true,
+  "estimated_recovery_time": "2h"
+}
+  

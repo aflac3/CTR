@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": 1754349377784,
+    "resource_id": "battery_us_gulf_01",
+    "failure_mode": "zkProofFail",
+    "evidence_hash": "eb67b8eeaf8fa3dedf0f1abeebcb170e1a0a51928ce59bc0e84db019336c68c1",
+    "triggered_by": "GVMS-validator-001"
+  },
+  {
+    "timestamp": 1754349378787,
+    "resource_id": "solar_california_02",
+    "failure_mode": "hashMismatch",
+    "evidence_hash": "e17cbbb24ace246ff2839ef5bf4197482a8678ca02841cd5b8a11d0f818896c0",
+    "triggered_by": "integrity-checker"
+  },
+  {
+    "timestamp": 1754349379789,
+    "resource_id": "wind_texas_03",
+    "failure_mode": "telemetryUnavailable",
+    "evidence_hash": "c6942e5b0412ab9aa7ee80d02a95767b62f2e86a02ef5340ea30a97bb05dc284",
+    "triggered_by": "monitoring-system"
+  }
+]
