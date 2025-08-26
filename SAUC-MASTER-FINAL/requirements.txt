@@ -1,0 +1,9 @@
+# SAUC Three-Agent System Requirements
+asyncio
+json
+logging
+hashlib
+pathlib
+dataclasses
+subprocess
+PyYAML>=6.0
