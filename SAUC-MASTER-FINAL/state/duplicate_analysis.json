@@ -1,0 +1,18 @@
+{
+  "total_files": 22,
+  "duplicate_files": [
+    [
+      "/workspace/SAUC-MASTER-FINAL/logs/chronos.log",
+      "/workspace/SAUC-MASTER-FINAL/logs/mission_control.log"
+    ]
+  ],
+  "duplicate_count": 2,
+  "redundant_modules": [],
+  "potential_savings": {
+    "space_saved_bytes": 0,
+    "space_saved_mb": 0.0,
+    "files_to_remove": 2,
+    "maintenance_reduction_percent": 0.2
+  },
+  "analysis_timestamp": "2025-08-26T18:55:01.198641"
+}

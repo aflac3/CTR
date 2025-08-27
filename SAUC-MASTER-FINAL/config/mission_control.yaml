@@ -1,0 +1,90 @@
+# Mission Control Center v2 Configuration
+# Three-Agent System Configuration
+
+agents:
+  elizaos:
+    enabled: true
+    auto_start: true
+    health_check_interval: 30
+    strategic_planning:
+      enabled: true
+      risk_assessment: true
+      conversation_mode: enhanced
+    
+  ananke:
+    enabled: true
+    auto_start: true
+    health_check_interval: 30
+    autonomous_development:
+      enabled: true
+      self_healing: true
+      file_deduplication: true
+      module_merging: true
+    
+  chronos:
+    enabled: true
+    auto_start: true
+    health_check_interval: 30
+    dlt_operations:
+      enabled: true
+      ctr_integration: true
+      blockchain_verification: true
+      temporal_coordination: true
+
+mission_control:
+  dashboard_refresh_rate: 5
+  auto_recovery: true
+  log_level: INFO
+  emergency_procedures:
+    enabled: true
+    backup_on_failure: true
+    rollback_capability: true
+
+consolidation:
+  auto_start_mission: true
+  backup_before_operations: true
+  validation_required: true
+  phases:
+    - name: "Analysis & Backup"
+      description: "Create backups and analyze dependencies"
+      safety_level: high
+      
+    - name: "Safe Consolidation"
+      description: "Remove obvious duplicates and merge simple files"
+      safety_level: medium
+      
+    - name: "Module Integration"
+      description: "Merge redundant modules and update dependencies"
+      safety_level: high
+      
+    - name: "Validation & Optimization"
+      description: "Test consolidated system and optimize structure"
+      safety_level: critical
+
+system:
+  workspace: "SAUC-MASTER-FINAL"
+  target_directories:
+    - "ananke"
+    - "chronos"
+    - "elizaos"
+    - "config"
+    - "logs"
+    - "monitoring"
+    - "state"
+  
+  backup_policy:
+    enabled: true
+    retention_days: 30
+    compression: true
+    
+  monitoring:
+    performance_tracking: true
+    resource_monitoring: true
+    error_alerting: true
+
+security:
+  file_validation: true
+  operation_logging: true
+  integrity_checks: true
+  access_control:
+    enabled: false  # Disabled for autonomous operation
