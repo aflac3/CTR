@@ -20,5 +20,5 @@ core.symlinks=false
 core.ignorecase=true
 remote.origin.url=https://github.com/yourusername/EDAI.git
 remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
-user.email=your.email@example.com
-user.name=Your Name
+user.email=aflac.333@gmail.com
+user.name=aflac3
